@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
       name << nam
     end
   end
-  name.flatten
-  name.uniq
+  name.flatten!
+  name.uniq!
   return name
 end
