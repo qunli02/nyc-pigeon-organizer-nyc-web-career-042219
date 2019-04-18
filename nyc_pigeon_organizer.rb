@@ -11,7 +11,9 @@ def nyc_pigeon_organizer(data)
   alex = {}
   data.each do |pige, life|
     life.each do |stuff, name|
-      print pige
+      if name == "Theo"
+        
+      elsif name == "Peter"
     end
   end
 end
