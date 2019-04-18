@@ -13,7 +13,9 @@ def nyc_pigeon_organizer(data)
     life.each do |stuff, name|
       if name == "Theo"
         
-      elsif name == "Peter"
+      elsif name == "Peter Jr."
+      
+      elsif name == 
     end
   end
 end
