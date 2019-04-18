@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   peter = {}
   lucky = {}
   data.each do |pige, life|
-    life.each |stuff, name|
+    life.each do |stuff, name|
       x = 99
     end
   end
