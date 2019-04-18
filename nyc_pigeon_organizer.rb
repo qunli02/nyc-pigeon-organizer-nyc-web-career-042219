@@ -30,5 +30,6 @@ def nyc_pigeon_organizer(data)
       name << nam
     end
   end
+  name.uniq
   puts name
 end
