@@ -32,5 +32,5 @@ def nyc_pigeon_organizer(data)
   end
   name.flatten!
   name.uniq!
-  return name
+  
 end
