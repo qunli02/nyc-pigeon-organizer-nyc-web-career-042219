@@ -21,7 +21,8 @@ def nyc_pigeon_organizer(data)
       
       elsif name == "Queenie"
       
-      elsif name == "Lucky"
+      elsif name == "Andrew"
+      
       elsif name == "Lucky"
       elsif name == "Lucky"
     end
