@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
       elsif nam == "Alex"
         hash[nam][pige] =[]
       end
+      return hash
     end
   end
   return hash
