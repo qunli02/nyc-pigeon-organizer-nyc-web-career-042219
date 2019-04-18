@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
   data.each do |pige, life|
     life.each do |stuff, name|
       if name == "Theo"
-        
+        theo[name] => {pige => stuff}
       elsif name == "Peter Jr."
       
       elsif name == "Lucky"
@@ -23,8 +23,10 @@ def nyc_pigeon_organizer(data)
       
       elsif name == "Andrew"
       
-      elsif name == "Lucky"
-      elsif name == "Lucky"
+      elsif name == "Alex"
+      
+      end
     end
   end
+  print theo
 end
