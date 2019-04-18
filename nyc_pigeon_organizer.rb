@@ -34,19 +34,19 @@ def nyc_pigeon_organizer(data)
     life.each do |stuff, na|
       na.each do |nam|
         if nam == "Theo"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Peter Jr."
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Lucky"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Ms. K"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Queenie"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Andrew"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         elsif nam == "Alex"
-          hash[nam][pige] << stff
+          hash[nam][pige] << stuff
         end
       end
     end
