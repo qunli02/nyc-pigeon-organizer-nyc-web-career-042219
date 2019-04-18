@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   hash = {}
-  name = 
+  name = []
   theo = {}
   peter = {}
   lucky = {}
@@ -27,8 +27,8 @@ def nyc_pigeon_organizer(data)
     #  end
   data.each do |pige, life|
     life.each do |stuff, name|
-      name 
+      name << name
     end
   end
-  hash = theo
+  puts name
 end
