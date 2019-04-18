@@ -5,10 +5,13 @@ def nyc_pigeon_organizer(data)
   theo = {}
   peter = {}
   lucky = {}
+  ms = {}
+  queen = {}
+  andrew = {}
+  alex = {}
   data.each do |pige, life|
     life.each do |stuff, name|
-      x = 99
+      print pige
     end
   end
-  print x
 end
