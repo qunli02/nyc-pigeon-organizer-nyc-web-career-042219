@@ -31,5 +31,5 @@ def nyc_pigeon_organizer(data)
     end
   end
   name.uniq
-  puts name
+  return name
 end
