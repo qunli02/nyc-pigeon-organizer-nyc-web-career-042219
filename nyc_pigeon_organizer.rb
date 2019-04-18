@@ -26,8 +26,8 @@ def nyc_pigeon_organizer(data)
       
     #  end
   data.each do |pige, life|
-    life.each do |stuff, name|
-      name << name
+    life.each do |stuff, nam|
+      name << nam
     end
   end
   puts name
